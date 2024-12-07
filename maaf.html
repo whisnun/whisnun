@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Nafaa, Maaf yaa seharian ninggalin kamuuu :( </h1>
+    <iframe src="https://giphy.com/embed/CHSHxWaOEmlFwEVRmk"
+     width="480"
+      height="480"
+       style="" 
+       frameBorder="0" 
+       class="giphy-embed" allowFullScreen>
+      </iframe>
+      <p>
+        <a href="https://giphy.com/gifs/kitten-im-so-sorry-i-am-CHSHxWaOEmlFwEVRmk"></a></p>
+    <h1>Janji gabakal ninggal lagi</h1>
+    <button id="btn_mau" onclick="alert('Makasih ayang :D')">Iya</button>&nbsp;
+    <button id="btn_gamau" onclick="gamau(this)" style="position: absolute">
+      Ga
+    </button>
+      <audio src="/lagu/Andra And The Backbone - Sempurna (Official Music Video).mp3" id="linkmp3" class="sembunyi"></audio>
+  </body>
+  <script>
+    function gamau(id) {
+      var mau = document.getElementById("btn_mau");
+      var i = Math.floor(Math.random() * 300) + 1;
+      var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+      id.style.left = i + "px";
+      id.style.top = j + "px";
+    }
+  </script>
+</html>
